@@ -1,0 +1,215 @@
+::-webkit-input-placeholder {
+   color: #000;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #000;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #000;
+}
+:-ms-input-placeholder {
+   color: #000;
+}
+
+.black_bg ::-webkit-input-placeholder {
+   color: #FFF;
+}
+.black_bg :-moz-placeholder { /* Firefox 18- */
+   color: #FFF;
+}
+.black_bg ::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFF;
+}
+.black_bg :-ms-input-placeholder {
+   color: #FFF;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 40.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	overflow: hidden;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.header_left{width:19%;}
+.footer_logo_wrapper,
+.skinn_copy_wrapper{width: 32.3333%}
+.main_menu ul li a{display: inline-block;vertical-align: top; position: relative;}
+
+input[type='submit']{
+	color: #FFF;
+	font-weight: bold;
+	text-align: left;
+	width: auto;
+	padding: 10px;
+	border: none !important;
+}
+
+.submit input:after{
+	content:'';
+	width: 25px;
+	height: 10px;
+	display: inline-block;
+	background-image: url('../img/meetdistrict_sprite.png');
+	background-image: url('../img/meetdistrict_sprite.svg');
+	top: 6px;
+	left: 0;
+	background-position: -400px -40px;
+}
+
+/* Remove Default .vc_row margin -15px */
+.vc_row{margin:0;padding:0;z-index:9999;}
+
+/* Remove Default padding 15px */
+.vc_column_container>.vc_column-inner,
+.vc_column_container{padding:0;}
+
+/* Remove margin-bottom 35px */
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li{margin-bottom:0;}
+
+
+.vc_row .vc_row .vc_col-sm-6{padding-left:25px;}
+.vc_row .vc_row .vc_col-sm-6:first-child{padding-left:0;padding-right:25px;}
+
+.vc_column_container p {
+    font-family: 'HelveticaNeue-Light',helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+}
+.vc_column_container p.read_text,
+.vc_column_container .content_box_text p,
+.vc_column_container p.content_box_text{font-size:16px;line-height: 22px;margin-bottom:30px !important;}
+
+.vc_custom_heading:after{content:'_';color:#FFF600;}
+h1.vc_custom_heading{font-size: 50px;line-height: 50px;margin-bottom: 30px;}
+
+.content_box_inner{padding: 90px;background-color: #FFF;}
+
+.black_bg,
+.black_bg a,
+.black_bg a:active,
+.black_bg a:visited,
+.black_bg a:hover{color:#FFF;}
+
+.border_elision{height:auto;}
+
+.single-featured-image-header img{width:100%;}
+.site-content-contain #main .content_container.block_1600{z-index:999;}
+
+.wpml-ls-legacy-list-horizontal{padding:0;}
+.sub_menu .wpml-ls a:hover{
+    background-color: #f0f0f0;
+    color: black;
+}
+.sub_menu .wpml-ls a{padding-top:14px;padding-bottom:14px;}
+
+.nobgcolor{background: transparent none !important;}
+
+footer .tagcloud a{color:#FFF;}
+
+/*
+.xb.sub_menu{position:fixed;right:0;z-index:999;}
+.xb.sub_menu .tel{background-color: #FFF;}
+*/
+
+/** ADDITIONS 07/04/2017 */
+
+.wpb_column .xb.border_elision > .mtli_attachment.mtli_pdf {
+    background-image: none;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px !important;
+    padding-right: 60px;
+    font-size: 15px;
+    display: block;
+}
+
+.wpb_column .xb.border_elision > .mtli_attachment.mtli_pdf .xib.i_t_arrow {
+    float: none;
+    width: 25px;
+    height: 10px;
+}
+
+.wpb_column .xb.border_elision > .mtli_attachment.mtli_pdf .xib.i_t_arrow:before {
+    background-position: -320px -40px;
+    /*opacity: 0;*/
+    content: '';
+    width: 25px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    background-image: url("../img/meetdistrict_sprite.svg");
+    top: 6px;
+    left: 0;
+    transition: all 0.2s ease-out;
+}
+
+.wpb_column .xb.border_elision > .mtli_attachment.mtli_pdf .xib.i_t_arrow:after {
+    background-position: -400px -40px;
+    content: '';
+    width: 25px;
+    height: 10px;
+    display: block;
+    position: relative;
+    background-image: url("../img/meetdistrict_sprite.svg");
+    top: 6px;
+    left: 0;
+    transition: all 0.2s ease-out;
+}
+
+.wpb_column .xb.border_elision > .mtli_attachment.mtli_pdf:hover .bg_overlay,
+.wpb_column .xb.border_elision > .mtli_attachment.mtli_pdf:hover .bg_overlay_hide {
+    background: #f5ec00;
+}
+
+.wpb_column .xb.border_elision > .mtli_attachment.mtli_pdf:hover,
+.wpb_column .xb.border_elision > .mtli_attachment.mtli_pdf:hover span {
+    color: #000;
+}
+
+.page-template-landingspagina .menu-top-menu-container .menu > li:first-of-type,
+.page-template-landingspagina .menu-top-menu-container .menu > li:nth-of-type(3) {
+    display: none;
+}
+
+.page-template-landingspagina .xb.header_top .xb.sub_menu > ul > .xib:nth-of-type(3) {
+    display: none;
+}
+
+.page-template-landingspagina .share_icons {
+    text-align: center;
+    margin: 15px 0;
+    display: block;
+}
+
+.page-template-landingspagina .share_icons a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    line-height: 35px;
+    margin: 0 3px;
+}
+
+.page-template-landingspagina .share_icons a:hover {
+    background-color: #b5b5b5;
+}
+
+.page-template-landingspagina .vc_figure > a.mtli_pdf {
+    background-image: none;
+}
